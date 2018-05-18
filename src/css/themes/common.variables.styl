@@ -1,0 +1,123 @@
+// App Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Stylus variables found in Quasar's source Stylus files. Setting
+// variables before Quasar's Stylus will use these variables rather than
+// Quasar's default Stylus variable values. Stylus variables specific
+// to the themes belong in either the variables.ios.styl or variables.mat.styl files.
+
+// Check documentation for full list of Quasar variables
+
+
+// App Shared Color Variables
+// --------------------------------------------------
+// It's highly recommended to change the default colors
+// to match your app's branding.
+
+$primary   = #027be3
+$secondary = #26A69A
+$tertiary  = #555
+
+$neutral   = #E0E1E2
+$positive  = #21BA45
+$negative  = #DB2828
+$info      = #31CCEC
+$warning   = #F2C037
+
+$moba-bg-button  = rgba( 255, 255, 255, .05 )
+$moba-grey = #252324
+
+$body-background = $moba-grey
+
+table
+  border-top 0px solid rgba( 255, 255, 255, .5 )
+
+td
+  vertical-align top
+  border-bottom 0!important
+
+tr
+  border-bottom 0px solid rgba( 255, 255, 255, .1 )!important
+
+tr:last-of-type
+  border-bottom 0!important
+
+.q-chip
+  padding-left 0!important
+  // width 100%
+  // border-bottom 1px solid #333!important
+  border-radius 0!important
+
+.q-collapsible-sub-item
+  padding 0 0!important
+
+.q-layout-drawer
+  background-color $moba-grey!important
+
+.q-table-top
+  border-top 0!important
+  padding 0!important
+
+.q-toolbar-title
+  font-size 16px!important
+  font-weight 400!important
+
+// .q-chip:last-of-type
+  // width 100%
+
+
+.moba-bg-333
+  background-color #333
+
+.moba-bg-button
+  background-color $moba-bg-button!important
+
+.moba-bg-grey
+  background-color $moba-grey
+
+.moba-bg-cards
+  background-color rgba( 255, 255, 255, .035 )!important
+
+.moba-bg-cards:hover
+  background-color rgba( 255, 255, 255, .025 )!important
+
+.moba-border
+  border 1px solid rgba( 255, 255, 255, .075 )!important
+
+.moba-border-bottom
+  border-bottom 1px solid #333
+
+.moba-border-bottom-brighter
+  border-bottom 1px solid #444
+
+.moba-border-brighter
+  border 1px solid rgba( 255, 255, 255, .15 )!important
+
+.moba-border-top
+  border-top 1px solid rgba( 255, 255, 255, .075 )!important
+
+.moba-collapsible-header:hover
+  background-color rgba( 255, 255, 255, .025 )!important
+
+.moba-font-size-13
+  font-size 13px!important
+  line-height 1.4em!important
+
+.moba-td-desc
+  min-width 400px
+  max-width 500px!important
+  white-space normal!important
+  line-height 1.2rem
+
+.font-size-13
+  font-size 13px!important
+  line-height 1.4em!important
+
+
+@media (max-width: 767px)
+  .q-table tbody td
+    height 50px!important
+
+@media (min-width: 1200px)
+  .moba-line-height-xl
+    line-height 1.6em!important
