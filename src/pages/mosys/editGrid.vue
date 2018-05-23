@@ -314,11 +314,11 @@ export default {
       const _this = this
       switch (type) {
         case 'manage_rights':
-          return _this.$router.push( '/mosys/manage-user' )
+          return _this.$router.push('/mosys/manage-user')
         case 'edit':
-          return _this.$router.push( '/mosys/edit' )
+          return _this.$router.push('/mosys/edit')
         case 'remove':
-          this.handlerRemoveUser( index )
+          this.handlerRemoveUser(index)
         // case 'videos':
         // return _this.$router.push( '/piecemaker/videos' )
       }
