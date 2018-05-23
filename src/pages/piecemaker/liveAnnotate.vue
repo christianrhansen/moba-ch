@@ -30,15 +30,12 @@
                 @click="handlerRemoveAnnotation()"
                 ) delete
 
-
-
     // q-page-sticky(position="top")
       q-input(
         float-label="Press Enter two times for a new entry",
         color="white",
         dark
         )
-
 
     // q-page-sticky(position="top-left", :offset="[10, 10]")
       q-btn(
